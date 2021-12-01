@@ -1,0 +1,67 @@
+.App {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  display: block;
+  box-sizing: border-box;
+  position: static;
+  width: 100%;
+  margin: 0;
+  top: 0;
+}
+
+.calculator-container {
+  display: grid;
+  width: 35vw;
+  grid-gap: 0.1em;
+  grid-template-columns: 2fr 2fr 2fr 0.5fr 0.5fr;
+  grid-template-rows: 55px 35px 35px 35px;
+}
+
+.answer {
+  grid-column: 1/6;
+}
+
+.item1 {
+  grid-column: 1/2;
+}
+
+.item0 {
+  grid-column: 1/2;
+}
+
+.itemp {
+  grid-column: 4/5;
+  grid-row: 2/4;
+}
+
+.itemm {
+  grid-column: 4/5;
+  grid-row: 4/6;
+}
+
+.itemmu {
+  grid-column: 5/6;
+  grid-row: 2/4;
+}
+
+.itemd {
+  grid-column: 5/6;
+  grid-row: 4/6;
+}
+
+.itema {
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+
+.itemc {
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
